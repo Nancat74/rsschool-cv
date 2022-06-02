@@ -32,3 +32,4 @@ I am 25. I live in a small town in Russia and do front-end development. I strive
 # Languages
 * Russian - native speaker
 * English - B1-B2(Intermediate - pre-Intermediate)
+* Deutsch - А1-А2
