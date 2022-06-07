@@ -62,6 +62,14 @@
     text-decoration: underline;
   }
 
+  a:visited {
+    color: #525924;
+  }
+
+  .main {
+    background-color: #fcffe5;
+  }
+
   .hero {
     display: flex;
     flex-wrap: wrap;
@@ -142,8 +150,36 @@
     font-size: 19px;
   }
 
-  .main {
-    background-color: #fcffe5;
+  .summary {
+    display: flex;
+    align-items: center;
+    padding: 30px 40px;
+    margin-bottom: 16px;
+  }
+
+  .summary-name {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .summary-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 48px;
+    opacity: 80%;
+  }
+
+  .summary-text {
+    text-align: start;
+    font-style: normal;
+    line-height: 25px;
+    font-weight: 400;
+    color: #454b1e;
+    font-size: 18px;
+    margin-left: 150px;
   }
 
   .footer {
