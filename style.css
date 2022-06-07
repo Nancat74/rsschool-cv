@@ -100,3 +100,9 @@
     font-style: normal;
     font-weight: 500;
   }
+
+  .summary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
