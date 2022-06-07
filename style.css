@@ -1,4 +1,4 @@
-* {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,8 +8,25 @@
     scroll-behavior: smooth;
   }
 
+  a {
+    display: inline-block;
+    background: transparent;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+
   body {
     display: flex;
     flex-direction: column;
     font-family: 'Inter', sans-serif ;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
   }
