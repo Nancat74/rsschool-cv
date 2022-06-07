@@ -21,6 +21,7 @@
   body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-family: 'Inter', sans-serif ;
   }
 
@@ -31,7 +32,7 @@
     justify-content: center;
     width: 100%;
     background-color: #f0e181;
-    padding: 50px 190px;
+    padding: 30px;
     max-width: 1920px;
   }
 
@@ -52,4 +53,50 @@
 
   a:hover {
     text-decoration: underline;
+  }
+
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    min-width: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f0e181;
+  }
+
+  .hero-image {
+    padding: 20px;
+  }
+
+  .hero-photo {
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 250px;
+    width: 100%;
+    border-radius: 200px;
+    border: 2px solid #f0e181;
+    overflow: hidden;
+  }
+
+  .hero-name {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 25px;
+  }
+
+  .hero-name-sub {
+    flex-direction: column;
+  }
+
+  .hero-subtitle {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
   }
