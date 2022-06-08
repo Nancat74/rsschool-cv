@@ -12,6 +12,7 @@
     display: inline-block;
     background: transparent;
     text-decoration: none;
+    opacity: 80%;
   }
 
   ul {
@@ -233,5 +234,25 @@
   }
 
   .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     background-color: #f0e181;
+    max-width: 1920px;
+    height: 112px;
+    width: 100%;
+  }
+
+  .logo {
+    max-width: 120px;
+    width: 100%;
+  }
+
+  .footer-link {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    opacity: 80%;
+    padding: 25px;
   }
