@@ -153,7 +153,7 @@
   .summary {
     display: flex;
     align-items: center;
-    padding: 30px 40px;
+    padding: 50px 80px;
     margin-bottom: 16px;
   }
 
@@ -180,6 +180,35 @@
     color: #454b1e;
     font-size: 18px;
     margin-left: 150px;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 40px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+  }
+
+  .skill-name {
+    margin-left: 160px;
+  }
+
+  .skill-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+    opacity: 80%;
+  }
+
+  .skill-list-item {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    color: #454b1e;
+    font-size: 18px;
+    margin-bottom: 20px;
   }
 
   .footer {
