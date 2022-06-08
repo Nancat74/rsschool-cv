@@ -1,0 +1,263 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  html {
+    scroll-behavior: smooth;
+  }
+
+  a {
+    display: inline-block;
+    background: transparent;
+    text-decoration: none;
+    color: #000000;
+    opacity: 80%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif ;
+  }
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f0e181;
+    padding: 30px;
+    max-width: 1920px;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nav-item {
+    margin-left: 80px;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: #454b1e;
+  }
+
+  .main {
+    background-color: #fcffe5;
+  }
+
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    min-width: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f0e181;
+  }
+
+  .hero-image {
+    padding: 20px;
+  }
+
+  .hero-photo {
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 250px;
+    width: 100%;
+    border-radius: 200px;
+    border: 2px solid #f0e181;
+    overflow: hidden;
+  }
+
+  .hero-name {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 25px;
+    opacity: 80%;
+  }
+
+  .hero-name-sub {
+    flex-direction: column;
+  }
+
+  .hero-subtitle {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    opacity: 80%;
+  }
+
+  .info {
+    padding: 30px 70px;
+    width: 100%;
+    max-width: 1600px;
+  }
+
+  .info-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 48px;
+    opacity: 80%;
+  }
+
+  .info-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .card-title {
+    font-size: 23px;
+    font-weight: 600;
+    opacity: 80%;
+  }
+
+  .card-text {
+    padding-top: 8px;
+    font-size: 19px;
+    color:#454b1e;
+  }
+
+  .summary {
+    display: flex;
+    align-items: center;
+    padding: 40px 80px;
+    margin-bottom: 10px;
+  }
+
+  .summary-name {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .summary-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    opacity: 80%;
+  }
+
+  .summary-text {
+    text-align: start;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: 400;
+    color: #454b1e;
+    font-size: 18px;
+    margin-left: 150px;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 40px;
+    margin-bottom: 80px;
+  }
+
+  .skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .skill-name {
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+
+  .skill-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+    opacity: 80%;
+  }
+
+  .skill-list-item {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    color: #454b1e;
+    font-size: 18px;
+    margin-bottom: 13px;
+  }
+
+  .code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .code-example {
+    font-weight: 400;
+    line-height: 20px;
+    color: #454b1e;
+  }
+
+  .projects {
+    margin-top: 30px;
+    margin-right: 50px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0e181;
+    max-width: 1920px;
+    height: 112px;
+    width: 100%;
+  }
+
+  .logo {
+    max-width: 120px;
+    width: 100%;
+  }
+
+  .footer-link {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    opacity: 80%;
+    padding: 25px;
+  }
